@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML5 Elements and Forms</title>
+  <!-- External CSS for styling, if necessary -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Advanced HTML5 Elements and Forms</h1>
+  </header>
+
+  <!-- Ordered list with Roman numerals -->
+  <section>
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+      <li>Fourth item</li>
+      <li>Fifth item</li>
+    </ol>
+  </section>
+
+  <!-- External image from Pexels -->
+  <section>
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1439223/pexels-photo-1439223.jpeg" alt="Beautiful landscape" width="500">
+  </section>
+
+  <!-- Table of 5 contacts -->
+  <section>
+    <h2>Contact Information Table</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Doe</td>
+          <td>1234 Elm St.</td>
+          <td>(254) 456-7890</td>
+          <td>johndoe@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Smith</td>
+          <td>5678 Oak Rd.</td>
+          <td>(254) 654-3210</td>
+          <td>janesmith@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Johnson</td>
+          <td>1357 Pine Ave.</td>
+          <td>(234) 555-5555</td>
+          <td>johnson@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td>2468 Maple Ln.</td>
+          <td>(254) 333-3333</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Charlie Lee</td>
+          <td>9752 Birch Dr.</td>
+          <td>(254) 444-4444</td>
+          <td>charlielee@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown menu -->
+      <label for="country">Select Country:</label>
+      <select id="country" name="country" required>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+      </select><br><br>
+
+      <!-- Radio buttons -->
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <label for="subscribe">Subscribe to Newsletter:</label>
+      <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Multimedia elements (audio and video) -->
+  <section>
+    <h2>Audio and Video</h2>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio><br><br>
+
+    <video width="320" height="240" controls>
+      <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </section>
+
+  <footer>
+    <p>assignment2</p>
+  </footer>
+
+</body>
+</html>
